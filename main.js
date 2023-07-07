@@ -21,7 +21,7 @@ if(navClose){
 
 /* Typing Animation */
 var typed = new Typed(".typing",{
-    strings: ["Coder","Web Developer", "Learner", "Intern"],
+    strings: ["Coder","Web Developer", "Learner", "Library Intern"],
     typeSpeed:300,
     BackSpeed:80,
     loop:true
@@ -184,8 +184,8 @@ function sendMail() {
         email: document.getElementById("email").value ,
         // location: JSON.stringify(location),
     };
-    const serviceID = "service_0i3skde";
-    const templateID = "template_6n90anj";
+    const serviceID = "service_ykhoaff";
+    const templateID = "template_klbo50l";
 
     emailjs.send(serviceID, templateID, params)
         .then((res) => {
